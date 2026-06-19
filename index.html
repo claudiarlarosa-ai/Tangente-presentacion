@@ -611,24 +611,24 @@
     <div class="layer" data-depth="12">
       <div class="mobile-swiper-desktop mobile-swiper">
         <div class="ind-card el id1" style="left:27%;top:46%">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M5 21h5"/><path d="M7.5 21V4.5"/><path d="M4 4.5h16"/><path d="M7.5 7.5 16.5 4.5"/><path d="M16.5 4.5V8"/><path d="M15.4 8h2.2l-1.1 1.5z"/><circle class="nd" cx="7.5" cy="4.5" r="1.6"/></svg></div>
+          <div class="nm">Inmobiliaria y Construcción</div>
+          <div class="tags"><span class="tg">CRM y Obras</span><span class="tg">Ventas e IA</span><span class="tg">Control y Avance</span></div>
+        </div>
+        <div class="ind-card el id2" style="left:39.5%;top:38%">
           <div class="ic"><svg viewBox="0 0 24 24"><path d="M10 3h4v6h6v4h-6v6h-4v-6H4V9h6V3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle class="nd" cx="12" cy="6" r="1.5"/></svg></div>
           <div class="nm">Consultorios médicos</div>
           <div class="tags"><span class="tg">Agendamiento</span><span class="tg">Historias clínicas</span><span class="tg">Recordatorios IA</span></div>
         </div>
-        <div class="ind-card el id2" style="left:39.5%;top:38%">
+        <div class="ind-card el id3" style="left:52%;top:30%">
           <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 19v-6h11a4 4 0 0 1 4 4v2"/><path d="M3 13V8"/><line x1="3" y1="19" x2="21" y2="19"/><circle class="nd" cx="7" cy="10.5" r="1.7"/></svg></div>
           <div class="nm">Hoteles</div>
           <div class="tags"><span class="tg">Reservas</span><span class="tg">Atención IA</span><span class="tg">Revenue</span></div>
         </div>
-        <div class="ind-card el id3" style="left:52%;top:30%">
+        <div class="ind-card el id4" style="left:64.5%;top:22%">
           <div class="ic"><svg viewBox="0 0 24 24"><path d="M4 17a8 8 0 0 1 16 0"/><line x1="3" y1="17" x2="21" y2="17"/><line x1="12" y1="9" x2="12" y2="6.5"/><circle class="nd" cx="12" cy="5.2" r="1.7"/></svg></div>
           <div class="nm">Restaurantes</div>
           <div class="tags"><span class="tg">Inventarios</span><span class="tg">Compras</span><span class="tg">Costos</span></div>
-        </div>
-        <div class="ind-card el id4" style="left:64.5%;top:22%">
-          <div class="ic"><svg viewBox="0 0 24 24"><path d="M5 21h5"/><path d="M7.5 21V4.5"/><path d="M4 4.5h16"/><path d="M7.5 7.5 16.5 4.5"/><path d="M16.5 4.5V8"/><path d="M15.4 8h2.2l-1.1 1.5z"/><circle class="nd" cx="7.5" cy="4.5" r="1.6"/></svg></div>
-          <div class="nm">Inmobiliaria y Construcción</div>
-          <div class="tags"><span class="tg">CRM y Obras</span><span class="tg">Ventas e IA</span><span class="tg">Control y Avance</span></div>
         </div>
         <div class="ind-card el id5" style="left:77%;top:14%">
           <div class="ic"><svg viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="13" rx="1.5"/><path d="M10.5 10.5l4.5 2.5-4.5 2.5z"/><circle class="nd" cx="7" cy="9" r="1.5"/></svg></div>
@@ -768,12 +768,12 @@
         <div class="chip founder fd1" style="left:50%;top:55%">
           <div class="mono">CR</div>
           <div class="nm">Claudia Rodríguez La Rosa</div>
-          <div class="rl">Socia fundadora</div>
+          <div class="rl">Socia fundadora · Perú</div>
         </div>
         <div class="chip founder fd2 b" style="left:76%;top:40%">
           <div class="mono">CG</div>
           <div class="nm">Carlos Granados</div>
-          <div class="rl">Socio fundador</div>
+          <div class="rl">Socio fundador · Costa Rica</div>
         </div>
       </div>
     </div>
@@ -784,14 +784,12 @@
       </div>
       <div style="position:absolute;top:24%;left:5%;max-width:30%">
         <div class="eyebrow el be1" style="margin-bottom:14px">QUIÉNES SOMOS</div>
-        <h1 class="el be1">Dos trayectorias,<br>una tangente.</h1>
-        <p class="sub el be2">Tangente nace del cruce de dos socios y crece por la región.</p>
+        <h1 class="el be1">Dos oficinas,<br>una tangente.</h1>
+        <p class="sub el be2">Unimos experiencia y tecnología para conectar operaciones entre Perú y Costa Rica.</p>
       </div>
       <div class="countries">
         <div class="ct"><span class="cdot"></span><span class="cnm">PERÚ</span></div>
         <div class="ct"><span class="cdot"></span><span class="cnm">COSTA RICA</span></div>
-        <div class="ct"><span class="cdot"></span><span class="cnm">MÉXICO</span></div>
-        <div class="ct"><span class="cdot"></span><span class="cnm">EE.UU.</span></div>
       </div>
     </div>
   </div>
@@ -871,21 +869,23 @@
   document.querySelectorAll('[data-sec]').forEach(function(s){ io.observe(s); });
 
   // parallax 3D por sección
-  document.querySelectorAll('[data-sec]').forEach(function(sec){
-    var layers = [].slice.call(sec.querySelectorAll('.layer'));
-    sec.addEventListener('mousemove', function(e){
-      var r = sec.getBoundingClientRect();
-      var dx = (e.clientX - r.left)/r.width - 0.5;
-      var dy = (e.clientY - r.top)/r.height - 0.5;
-      layers.forEach(function(l){
-        var d = parseFloat(l.getAttribute('data-depth')) || 0;
-        l.style.transform = 'translate(' + (-dx*d) + 'px,' + (-dy*d) + 'px)';
+  if (window.innerWidth > 768) {
+    document.querySelectorAll('[data-sec]').forEach(function(sec){
+      var layers = [].slice.call(sec.querySelectorAll('.layer'));
+      sec.addEventListener('mousemove', function(e){
+        var r = sec.getBoundingClientRect();
+        var dx = (e.clientX - r.left)/r.width - 0.5;
+        var dy = (e.clientY - r.top)/r.height - 0.5;
+        layers.forEach(function(l){
+          var d = parseFloat(l.getAttribute('data-depth')) || 0;
+          l.style.transform = 'translate(' + (-dx*d) + 'px,' + (-dy*d) + 'px)';
+        });
+      });
+      sec.addEventListener('mouseleave', function(){
+        layers.forEach(function(l){ l.style.transform = 'translate(0,0)'; });
       });
     });
-    sec.addEventListener('mouseleave', function(){
-      layers.forEach(function(l){ l.style.transform = 'translate(0,0)'; });
-    });
-  });
+  }
 
   // Indicador de deslizamiento para móvil con desvanecimiento al hacer scroll
   (function(){
