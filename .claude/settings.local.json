@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__visualize__show_widget",
+      "Bash(echo \"=== ~/.claude/backups ===\" && ls -lat ~/.claude/backups 2>/dev/null | head -20 *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(rm -f tangente-deck.reverted-backup.html tangente-deck.reconstructed.html)",
+      "Bash(cp tangente-deck.html tangente-deck.backup.html)",
+      "Bash(node /Users/claudia/Desktop/Claude/Tangente/.claude/server.js)",
+      "Bash(curl -s http://localhost:4521)"
+    ]
+  }
+}

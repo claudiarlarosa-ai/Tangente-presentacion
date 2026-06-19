@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "tangente",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["/Users/claudia/Desktop/Claude/Tangente/.claude/server.js"],
+      "port": 4521
+    }
+  ]
+}
