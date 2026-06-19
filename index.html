@@ -37,6 +37,7 @@
   .panel::after{content:"";position:absolute;left:8%;top:6%;width:42%;height:2px;background:linear-gradient(90deg,rgba(255,255,255,.5),rgba(255,255,255,0));pointer-events:none;border-radius:2px}
   .mobile-swiper-desktop{position:absolute;inset:0;pointer-events:none}
   .mobile-swiper-desktop>*{pointer-events:auto}
+  .swipe-hint { display: none; }
 
   /* ---- animaciones de entrada (se disparan con .go) ---- */
   .el{opacity:0}
@@ -107,7 +108,7 @@
       z-index: 0 !important;
       order: 0 !important;
     }
-    .layer svg:not(.mesh) {
+    .layer > svg:not(.mesh) {
       display: none !important;
     }
     .mobile-swiper {
@@ -143,6 +144,34 @@
       bottom: auto !important;
       transform: none !important;
       margin: 0 !important;
+    }
+    /* Swipe hint only on mobile */
+    .swipe-hint {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      margin-top: -10px;
+      margin-bottom: 15px;
+      font-size: 11px;
+      color: rgba(98, 218, 224, 0.7);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      pointer-events: none;
+      z-index: 10;
+      opacity: 1;
+    }
+    .swipe-hint.fade-out {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    .swipe-arrow {
+      animation: bounceArrow 1.2s infinite;
+    }
+    @keyframes bounceArrow {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(4px); }
     }
     /* Orden correcto del contenido: Titulo arriba, tarjetas abajo */
     .layer:has(h1) {
@@ -857,6 +886,30 @@
       layers.forEach(function(l){ l.style.transform = 'translate(0,0)'; });
     });
   });
+
+  // Indicador de deslizamiento para móvil con desvanecimiento al hacer scroll
+  (function(){
+    if (window.innerWidth > 768) return;
+    document.querySelectorAll('.mobile-swiper').forEach(function(swiper){
+      setTimeout(function() {
+        if (swiper.scrollWidth <= swiper.clientWidth) return;
+        
+        var hint = document.createElement('div');
+        hint.className = 'swipe-hint';
+        hint.innerHTML = '<span>Desliza para ver más</span><svg class="swipe-arrow" width="12" height="12" viewBox="0 0 24 24" stroke="#62DAE0" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>';
+        
+        swiper.parentNode.insertBefore(hint, swiper.nextSibling);
+        
+        swiper.addEventListener('scroll', function(){
+          if (swiper.scrollLeft > 20) {
+            hint.classList.add('fade-out');
+          } else {
+            hint.classList.remove('fade-out');
+          }
+        }, { passive: true });
+      }, 100);
+    });
+  })();
 </script>
 </body>
 </html>
