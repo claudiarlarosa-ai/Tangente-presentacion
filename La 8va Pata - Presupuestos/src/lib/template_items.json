@@ -1,0 +1,1833 @@
+{
+  "production": [
+    {
+      "category": "Casting / Modelos",
+      "item_name": "Servicio de Casting Nacional Archivo con Call Back",
+      "unit_cost": 0.0,
+      "quantity": 1.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting / Modelos",
+      "item_name": "Modelos / Actores Principales",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting / Modelos",
+      "item_name": "Modelos Bailarines Colaboradores",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting / Modelos",
+      "item_name": "Hijo",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting / Modelos",
+      "item_name": "Modelos / Actores Secundarios",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting / Modelos",
+      "item_name": "Secundario ambos comerciales",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting / Modelos",
+      "item_name": "Secundario",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting / Modelos",
+      "item_name": "Extras especiales",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting / Modelos",
+      "item_name": "Extras especiales",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting / Modelos",
+      "item_name": "Extras",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting / Modelos",
+      "item_name": "Extras - Clientes",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting Extranjero",
+      "item_name": "Servicio de Casting Extranjero",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting Extranjero",
+      "item_name": "Gastos del Modelo / Actor extranjero",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting Extranjero",
+      "item_name": "Modelo / Actor principal",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting Extranjero",
+      "item_name": "30 % Impuestos",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting Extranjero",
+      "item_name": "Pase intersindical sindicato de artistas del Perú",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting Extranjero",
+      "item_name": "Pago sindicato de artistas del Perú (x actor extranjero)",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Casting Extranjero",
+      "item_name": "Tramitador",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasaje - Hotel - Viaticos",
+      "item_name": "Pasaje",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasaje - Hotel - Viaticos",
+      "item_name": "Pre pagado pasaje",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasaje - Hotel - Viaticos",
+      "item_name": "Cambio de fecha de pasaje",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasaje - Hotel - Viaticos",
+      "item_name": "Hotel",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasaje - Hotel - Viaticos",
+      "item_name": "Viáticos",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasaje - Hotel - Viaticos",
+      "item_name": "Traslados aeropuertos",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasaje - Hotel - Viaticos",
+      "item_name": "Impuesto aeropuertos",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasaje - Hotel - Viaticos",
+      "item_name": "Sobrepeso equipaje",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasaje - Hotel - Viaticos",
+      "item_name": "Assistcard",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasaje - Hotel - Viaticos",
+      "item_name": "Taxis",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Director de Arte",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Foto Fija",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Utilero",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Scouting de locaciones",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Maquillador",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Asistente de maquillador",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Peinador",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Vestuarista",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Asistente de vestuarista",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Caracterizador",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Coreografo",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Adiestrador de animales",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Director de actores",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Psicólogo de niños",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Efectos especiales Cerveza",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Tratamiento de producto",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Asistente de producción 1",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Asistente de producción 2",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Equipo Artistico",
+      "item_name": "Asistente de producción 3",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Estudio",
+      "item_name": "Estudio",
+      "unit_cost": 0.0,
+      "quantity": 1.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Estudio",
+      "item_name": "Pintado de estudio",
+      "unit_cost": 0.0,
+      "quantity": 1.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Estudio",
+      "item_name": "Armado y desarme",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Locaciones",
+      "item_name": "Casino",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Locaciones",
+      "item_name": "Retoque de Locaciones",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Locaciones",
+      "item_name": "Retoque de locaciones",
+      "unit_cost": 0.0,
+      "quantity": 1.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Vestuario",
+      "item_name": "COLABORADORES",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Utileria",
+      "item_name": "Cocina",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Dummies",
+      "item_name": "Dummies de poducto",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Dummies",
+      "item_name": "Dummies de etiquetas/ empaques",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Accesorios",
+      "item_name": "Varios",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Transportes",
+      "item_name": "Transporte de  pre producción",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Transportes",
+      "item_name": "Scouting de Locaciones",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Transportes",
+      "item_name": "Scouting Tecnico",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Transportes",
+      "item_name": "Movilidad visita del locaciones con Director",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Transportes",
+      "item_name": "Movilidad Agencia día de filmación",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Transportes",
+      "item_name": "Transporte personal del equipo de producción",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Transportes",
+      "item_name": "Movilidad recojo y devolución de utilería",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Transportes",
+      "item_name": "Transporte de modelos y extras",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alimentación",
+      "item_name": "Refrigerio de Pre producción",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alimentación",
+      "item_name": "Refrigerio de visita de locaciones",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alimentación",
+      "item_name": "Desayuno, almuerzo y cena día 1",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alimentación",
+      "item_name": "Mantenimiento día 1",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alimentación",
+      "item_name": "Desayuno, almuerzo y cena día 2",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alimentación",
+      "item_name": "Mantenimiento día 2",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alimentación",
+      "item_name": "Desayuno, almuerzo y cena día 3",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alimentación",
+      "item_name": "Mantenimiento día 3",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Seguros - Permisos",
+      "item_name": "Seguros SCTR",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Seguros - Permisos",
+      "item_name": "Seguridad durante la filmación (Policías)",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Seguros - Permisos",
+      "item_name": "Permisos municipales",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Otros gastos adicionales no considerados",
+      "item_name": "Caja de producción",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Otros gastos adicionales no considerados",
+      "item_name": "Implementos Bioseguridad",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Otros gastos adicionales no considerados",
+      "item_name": "Pruebas Covid",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Otros gastos adicionales no considerados",
+      "item_name": "Logistica",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Otros gastos adicionales no considerados",
+      "item_name": "Imprevistos",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Requerimientos Técnicos",
+      "item_name": "Grupo electrógeno",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Requerimientos Técnicos",
+      "item_name": "Dolly",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Requerimientos Técnicos",
+      "item_name": "Porta jib",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Requerimientos Técnicos",
+      "item_name": "Hot head",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Requerimientos Técnicos",
+      "item_name": "Grúa",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Requerimientos Técnicos",
+      "item_name": "Rotor",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Requerimientos Técnicos",
+      "item_name": "Andamios",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Requerimientos Técnicos",
+      "item_name": "Tela chroma",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Requerimientos Técnicos",
+      "item_name": "Walkie Talkie - Megáfono",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Pista de Archivo",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Horas de Estdio Grabacion Mezcla y post",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Derechos YouTube x 6 seg c/u",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Horas de estudio",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Horas FX",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Locuciones",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Locutor institucional",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Derechos locucion Guatemala x 25 videos",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Locutor institucional para radio",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Locutor / Doblaje de personaje para TV",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Locutor / Doblaje de personaje para TV reducción",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Musicalización + Post-Producción",
+      "item_name": "Locutor / Doblaje de personaje para radio",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Producción",
+      "item_name": "Supervisión de Producción",
+      "unit_cost": 0.0,
+      "quantity": 1.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    }
+  ],
+  "realization": [
+    {
+      "category": "Personal Técnico",
+      "item_name": "Director 1",
+      "unit_cost": 800.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Director 2",
+      "unit_cost": 4000.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Director de Fotografía Nacional (Tarifa cambia x cada DF)",
+      "unit_cost": 1800.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Director de Fotografía Extranjero",
+      "unit_cost": 1500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Director de Fotografía Extranjero (Scouting x día 50%)",
+      "unit_cost": 750.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Director de Fotografía Extranjero (Viaje ida y vuelta 50%)",
+      "unit_cost": 750.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Producción Ejecutiva Josek",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Productor Ejecutivo Martina",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Coordinacion",
+      "unit_cost": 100.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Administración",
+      "unit_cost": 100.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Devoluciones 1",
+      "unit_cost": 200.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Devoluciones 2",
+      "unit_cost": 50.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "1er. Asistente de Dirección",
+      "unit_cost": 500.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "2do. Asistente de Dirección",
+      "unit_cost": 500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "3er. Asistente de Dirección",
+      "unit_cost": 350.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "1er. Asistente de Cámara",
+      "unit_cost": 350.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "2do. Asistente de Cámara",
+      "unit_cost": 150.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Data Manager o D.I.T",
+      "unit_cost": 150.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Asistente de Video Assit",
+      "unit_cost": 80.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Gaffer",
+      "unit_cost": 300.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Técnicos de Luces",
+      "unit_cost": 150.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Grip",
+      "unit_cost": 350.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Operador de Dolly",
+      "unit_cost": 100.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Steady Cam",
+      "unit_cost": 600.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Helicam",
+      "unit_cost": 1200.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Dron",
+      "unit_cost": 700.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Making Off",
+      "unit_cost": 250.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Story Board",
+      "unit_cost": 600.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Conference Call",
+      "unit_cost": 1000.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Cobertura 6 Horas Adicionales",
+      "unit_cost": 2100.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Cobertura 8 Horas Adicionales",
+      "unit_cost": 2800.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Streaming",
+      "unit_cost": 250.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Imprevistos",
+      "unit_cost": 100.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Comisión Productor Agencia",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Mark Up presupuesto de producción 10%(V. x Agencia)",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Personal Técnico",
+      "item_name": "Mark Up",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Luces / Accesorios",
+      "unit_cost": 500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Alexa XT",
+      "unit_cost": 800.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Caja para tomas de agua",
+      "unit_cost": 500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Amira",
+      "unit_cost": 1500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Red Epic X",
+      "unit_cost": 500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Red Epic Mysterium X",
+      "unit_cost": 700.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Epic Dragon",
+      "unit_cost": 1000.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Red Scarlet X",
+      "unit_cost": 700.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Phantom FLEX 2K 2550fpt HD",
+      "unit_cost": 3500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Phantom GOLD 2K 1000fpt HD",
+      "unit_cost": 3500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Blackmagic 4K",
+      "unit_cost": 500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Blackmagic Cinema",
+      "unit_cost": 400.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Black Magic Poket",
+      "unit_cost": 400.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Blackmagic Ursa 4K",
+      "unit_cost": 600.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Blackmagic  Mini Ursa 4.6K",
+      "unit_cost": 700.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Accesorios Cámara Blackmagic  Mini Ursa 4.6K(oficina)",
+      "unit_cost": 300.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Canon 1D",
+      "unit_cost": 500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Canon 5D Mark III",
+      "unit_cost": 500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Canon 6D",
+      "unit_cost": 500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Canon 7D",
+      "unit_cost": 450.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Canon 60D",
+      "unit_cost": 400.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Sony F5",
+      "unit_cost": 1100.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Sony A7s",
+      "unit_cost": 500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Cámara Go Pro",
+      "unit_cost": 50.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Óptica Master prime (16, 25, 35, 50, 85, 135mm T/1.3)",
+      "unit_cost": 800.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Óptica Ultra prime (16, 24, 32, 50,85, 135mm T/1.9)",
+      "unit_cost": 700.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Lente Master Prime 135mm T/2.0-4.3",
+      "unit_cost": 230.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Lente Macro Master Prime 100mm T/2.0-4.3",
+      "unit_cost": 230.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Lente Ultra Prime 14mm T/1.9",
+      "unit_cost": 200.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Lente Ultra Prime 40mm T/1.9",
+      "unit_cost": 200.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Lente Ultra Prime 180mm T/1.9",
+      "unit_cost": 200.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Lente Zoom Angenieux Optimo 28-340mm 12X T/2.3",
+      "unit_cost": 1000.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Lente Zoom Arri/Fujinon Alura 18-80mm T/2.6",
+      "unit_cost": 400.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Dolly Phanter",
+      "unit_cost": 600.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Motion Control",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Alquiler de Equipos",
+      "item_name": "Sonido Directo",
+      "unit_cost": 250.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Movilidades de Equipos",
+      "item_name": "Carro de Cámara Lima",
+      "unit_cost": 150.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Movilidades de Equipos",
+      "item_name": "Carro de Cámara fuera de Lima",
+      "unit_cost": 350.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Movilidades de Equipos",
+      "item_name": "Camión de Luces Lima",
+      "unit_cost": 150.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Movilidades de Equipos",
+      "item_name": "Camión de Luces fuera de Lima",
+      "unit_cost": 350.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Movilidades de Equipos",
+      "item_name": "Van personal de Realización Lima",
+      "unit_cost": 100.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Movilidades de Equipos",
+      "item_name": "Van personal de Realización fuera de Lima",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasajes - Hoteles - Viáticos",
+      "item_name": "Pasajes",
+      "unit_cost": 1200.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasajes - Hoteles - Viáticos",
+      "item_name": "Cambio de fecha de pasaje",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasajes - Hoteles - Viáticos",
+      "item_name": "Hotel",
+      "unit_cost": 100.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasajes - Hoteles - Viáticos",
+      "item_name": "Viáticos",
+      "unit_cost": 100.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasajes - Hoteles - Viáticos",
+      "item_name": "Transporte (Van)",
+      "unit_cost": 60.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasajes - Hoteles - Viáticos",
+      "item_name": "Taxi",
+      "unit_cost": 100.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasajes - Hoteles - Viáticos",
+      "item_name": "Traslado Aeropuerto-Hotel-Aereopuerto",
+      "unit_cost": 30.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasajes - Hoteles - Viáticos",
+      "item_name": "Impuestos Aeropuerto",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasajes - Hoteles - Viáticos",
+      "item_name": "Sobrepeso Equipajes",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Pasajes - Hoteles - Viáticos",
+      "item_name": "Assist Card",
+      "unit_cost": 60.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Gastos Adicionales",
+      "item_name": "Sesión tomas Fotográficas",
+      "unit_cost": 0.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Gastos Adicionales",
+      "item_name": "Tomas de Stock",
+      "unit_cost": 700.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Gastos Adicionales",
+      "item_name": "Disco Duros Externos",
+      "unit_cost": 180.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Post Producción",
+      "item_name": "Off Line",
+      "unit_cost": 300.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Post Producción",
+      "item_name": "RENDER",
+      "unit_cost": 800.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Post Producción",
+      "item_name": "Re armado",
+      "unit_cost": 1000.0,
+      "quantity": 0.0,
+      "days": 1.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Post Producción",
+      "item_name": "Animación 3D",
+      "unit_cost": 3500.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Post Producción",
+      "item_name": "Todo Post",
+      "unit_cost": 1000.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Post Producción",
+      "item_name": "AUDIO",
+      "unit_cost": 730.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Post Producción",
+      "item_name": "Copias Canal Betacam",
+      "unit_cost": 60.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    },
+    {
+      "category": "Post Producción",
+      "item_name": "Copias Canal DVD",
+      "unit_cost": 60.0,
+      "quantity": 0.0,
+      "days": 0.0,
+      "total_usd": 0.0,
+      "total_pen": 0.0
+    }
+  ]
+}
