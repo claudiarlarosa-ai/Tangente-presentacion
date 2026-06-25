@@ -92,7 +92,7 @@ export default function ClientView({ project, items, onBack }) {
         {/* Document Header */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6 border-b border-slate-100 pb-8 mb-8">
           <div>
-            <img src={logoImg} alt="La 8va Pata Logo" className="h-9 w-auto object-contain mix-blend-multiply mb-3" />
+            <img src={logoImg} alt="La 8va Pata Logo" className="h-9 w-auto object-contain mb-3" />
             <h1 className="text-lg font-bold tracking-tight text-slate-900">Presupuesto Audiovisual</h1>
             <p className="text-slate-400 text-[10px] mt-0.5">Av. José Pardo 1357 - 801 Miraflores • RUC: 20602017487</p>
           </div>
