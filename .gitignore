@@ -1,0 +1,18 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Logs and environment
+*.log
+.env
+.env.local
+
+# Build and dependencies fallbacks (just in case)
+node_modules/
+dist/
+
+# Ignore temporary/raw images at the root, but allow them in src/assets
+*.png
+*.jpg
+*.jpeg
+!**/src/assets/**/*
