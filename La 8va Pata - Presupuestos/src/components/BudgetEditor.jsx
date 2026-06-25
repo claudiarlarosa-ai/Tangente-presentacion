@@ -239,7 +239,7 @@ export default function BudgetEditor({ project, onBack, onUpdateProject, onOpenC
             <p className="text-brand-muted text-xs mt-0.5">
               Cliente: <span className="text-white font-semibold">{currentProject.client}</span> • 
               Producto: <span className="text-white font-semibold">{currentProject.product}</span> • 
-              TC: <span className="text-white font-semibold">{tc}</span>
+              TC Comercial: <span className="text-white font-semibold">{tc}</span> <span className="text-brand-muted text-[10px]">(Ref. SUNAT: {currentProject.exchange_rate_sunat || tc})</span>
             </p>
           </div>
         </div>
@@ -881,13 +881,24 @@ export default function BudgetEditor({ project, onBack, onUpdateProject, onOpenC
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold uppercase text-brand-muted mb-1.5">Tipo de Cambio (USD-PEN)</label>
+                  <label className="block text-xs font-semibold uppercase text-brand-muted mb-1.5">T.C. Referencia (SUNAT)</label>
+                  <input
+                    type="number"
+                    disabled
+                    value={currentProject.exchange_rate_sunat || currentProject.exchange_rate || 3.6}
+                    className="w-full bg-slate-900/50 border border-brand-border rounded-lg px-3.5 py-2 text-brand-muted font-bold text-sm cursor-not-allowed"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-semibold uppercase text-white mb-1.5">T.C. Comercial (Cálculo) *</label>
                   <input
                     type="number"
                     step="0.001"
+                    required
                     value={currentProject.exchange_rate}
                     onChange={e => setCurrentProject(p => ({ ...p, exchange_rate: parseFloat(e.target.value) || 3.6 }))}
-                    className="w-full bg-slate-900 border border-brand-border rounded-lg px-3.5 py-2 text-white focus:outline-none focus:border-brand-green text-base md:text-sm"
+                    className="w-full bg-slate-900 border border-brand-green rounded-lg px-3.5 py-2 text-white font-bold focus:outline-none focus:border-brand-green text-sm"
                   />
                 </div>
 
@@ -913,9 +924,10 @@ export default function BudgetEditor({ project, onBack, onUpdateProject, onOpenC
                     onChange={e => setCurrentProject(p => ({ ...p, status: e.target.value }))}
                     className="w-full bg-slate-900 border border-brand-border rounded-lg px-3.5 py-2 text-white focus:outline-none focus:border-brand-green text-base md:text-sm h-[38px]"
                   >
-                    <option value="draft">Borrador</option>
-                    <option value="sent">Enviado</option>
+                    <option value="draft">Borrador / En Proceso</option>
+                    <option value="sent">Enviado / En Proceso</option>
                     <option value="approved">Aprobado</option>
+                    <option value="rejected">Rechazado</option>
                     <option value="liquidated">Liquidado</option>
                   </select>
                 </div>

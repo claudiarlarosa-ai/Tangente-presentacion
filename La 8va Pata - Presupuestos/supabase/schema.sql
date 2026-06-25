@@ -19,7 +19,8 @@ CREATE TABLE IF NOT EXISTS projects (
     contact_8va_pata TEXT,
     budget_number TEXT,
     exchange_rate NUMERIC DEFAULT 3.6,
-    status TEXT DEFAULT 'draft' CHECK (status IN ('draft', 'sent', 'approved', 'liquidated')),
+    exchange_rate_sunat NUMERIC DEFAULT 3.6,
+    status TEXT DEFAULT 'draft' CHECK (status IN ('draft', 'sent', 'approved', 'rejected', 'liquidated')),
     financing_fee_rate NUMERIC DEFAULT 0.016, -- 1.6%
     admin_fee_rate NUMERIC DEFAULT 0.04,      -- 4.0%
     markup_realization_rate NUMERIC DEFAULT 0.15, -- 15%

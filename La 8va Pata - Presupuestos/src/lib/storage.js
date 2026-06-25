@@ -1,8 +1,11 @@
 import { supabase } from './supabaseClient';
 import defaultTemplates from './template_items.json';
 
-// Helper to check if Supabase is properly configured
+// Helper to check if Supabase is properly configured and online
 const isSupabaseConfigured = () => {
+  if (typeof window !== 'undefined' && window.navigator && !window.navigator.onLine) {
+    return false;
+  }
   const url = import.meta.env.VITE_SUPABASE_URL;
   const key = import.meta.env.VITE_SUPABASE_ANON_KEY;
   return url && url !== 'https://your-project-id.supabase.co' && key && key !== 'your-anon-key-here';
@@ -192,10 +195,12 @@ export async function createProject(project) {
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString(),
     status: project.status || 'draft',
-    financing_fee_rate: project.financing_fee_rate || 0.016,
-    admin_fee_rate: project.admin_fee_rate || 0.04,
-    markup_realization_rate: project.markup_realization_rate || 0.15,
-    agency_commission_rate: project.agency_commission_rate || 0.0
+    exchange_rate: parseFloat(project.exchange_rate) || 3.6,
+    exchange_rate_sunat: parseFloat(project.exchange_rate_sunat) || parseFloat(project.exchange_rate) || 3.6,
+    financing_fee_rate: parseFloat(project.financing_fee_rate) || 0.016,
+    admin_fee_rate: parseFloat(project.admin_fee_rate) || 0.04,
+    markup_realization_rate: parseFloat(project.markup_realization_rate) || 0.15,
+    agency_commission_rate: parseFloat(project.agency_commission_rate) || 0.0
   };
 
   if (isSupabaseConfigured()) {
@@ -368,4 +373,70 @@ export async function resetProjectBudgetCosts(projectId) {
 
   await saveBudgetItems(projectId, updatedItems);
   return updatedItems;
+}
+
+// CLIENTS
+export async function getClients() {
+  if (isSupabaseConfigured()) {
+    try {
+      const { data, error } = await supabase.from('clients').select('*').order('name', { ascending: true });
+      if (!error) return data;
+    } catch (e) {
+      console.warn("Supabase fetch clients failed, falling back to local storage:", e);
+    }
+  }
+  const localClients = localStorage.getItem('clients');
+  if (localClients) return JSON.parse(localClients);
+  // Default mock clients for demonstration:
+  const mockClients = [
+    { id: '1', name: 'Backus', contact: 'María Alejandra Vega', email: 'mvega@backus.pe', phone: '987 654 321', status: 'active', created_at: new Date().toISOString() },
+    { id: '2', name: 'McCann Lima', contact: 'Carlos Rodriguez', email: 'crodriguez@mccann.pe', phone: '999 888 777', status: 'active', created_at: new Date().toISOString() },
+    { id: '3', name: 'Interbank', contact: 'Sandra Alva', email: 'salva@interbank.pe', phone: '944 333 222', status: 'active', created_at: new Date().toISOString() }
+  ];
+  localStorage.setItem('clients', JSON.stringify(mockClients));
+  return mockClients;
+}
+
+export async function saveClient(client) {
+  const newClient = {
+    ...client,
+    id: client.id || crypto.randomUUID(),
+    created_at: client.created_at || new Date().toISOString(),
+    updated_at: new Date().toISOString(),
+    status: client.status || 'active'
+  };
+
+  if (isSupabaseConfigured()) {
+    try {
+      const { error } = await supabase.from('clients').upsert(newClient);
+      if (!error) return newClient;
+    } catch (e) {
+      console.error("Supabase save client failed:", e);
+    }
+  }
+
+  const clients = await getClients();
+  const index = clients.findIndex(c => c.id === newClient.id);
+  if (index !== -1) {
+    clients[index] = newClient;
+  } else {
+    clients.push(newClient);
+  }
+  localStorage.setItem('clients', JSON.stringify(clients));
+  return newClient;
+}
+
+export async function deleteClient(id) {
+  if (isSupabaseConfigured()) {
+    try {
+      const { error } = await supabase.from('clients').delete().eq('id', id);
+      if (!error) return true;
+    } catch (e) {
+      console.error(e);
+    }
+  }
+  const clients = await getClients();
+  const filtered = clients.filter(c => c.id !== id);
+  localStorage.setItem('clients', JSON.stringify(filtered));
+  return true;
 }
