@@ -34,8 +34,6 @@ function App() {
             {/* Logo */}
             <div className="flex items-center gap-3">
               <img src={logoImg} alt="La 8va Pata" className="h-8 w-auto object-contain mix-blend-screen" />
-              <div className="h-4 w-[1px] bg-brand-border hidden sm:block"></div>
-              <span className="text-[10px] tracking-widest text-brand-muted uppercase font-bold hidden sm:block">Tangente Console</span>
             </div>
 
             {/* Navigation Tabs */}
@@ -121,6 +119,15 @@ function App() {
           />
         )}
       </main>
+
+      {/* Global Footer (Centered, small) */}
+      {(activeView === 'dashboard' || activeView === 'clients') && (
+        <footer className="py-6 border-t border-brand-border/30 bg-slate-950/20 text-center no-print">
+          <p className="text-[9px] tracking-widest text-brand-muted uppercase font-bold">
+            Tangente Console
+          </p>
+        </footer>
+      )}
     </div>
   );
 }
