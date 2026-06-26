@@ -179,4 +179,4 @@ Desarrollamos soluciones especializadas para distintos sectores.
 | **Hoteles** | Gestión de reservas, atención automatizada, CRM de huéspedes, revenue management |
 | **Restaurantes** | Inventarios, compras, producción, costos |
 | **Constructoras** | Gestión de obras, presupuestos, compras, control de avance |
-| **Productoras** | Producción audiovisual, presupuestos, casting, gestión de equipos |
+| **Importadoras y Distribuidoras** | Control de inventarios, despachos, facturación, trazabilidad de pedidos |
