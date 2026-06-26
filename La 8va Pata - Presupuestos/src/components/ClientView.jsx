@@ -99,14 +99,7 @@ export default function ClientView({ project, items, onBack }) {
           <div className="text-left sm:text-right font-sans text-xs space-y-1.5 text-slate-600">
             <div><span className="font-medium text-slate-400">Nº Presupuesto:</span> <span className="font-semibold text-slate-900">{project.budget_number || '-'}</span></div>
             <div><span className="font-medium text-slate-400">Fecha:</span> <span className="font-semibold text-slate-900">{new Date(project.created_at).toLocaleDateString()}</span></div>
-            <div>
-              <span className="font-medium text-slate-400">T. Cambio Comercial:</span> <span className="font-semibold text-slate-900">{tc.toFixed(3)}</span>
-              {project.exchange_rate_sunat && (
-                <span className="text-[10px] text-slate-400 block sm:inline sm:ml-2">
-                  (Ref. SUNAT: {parseFloat(project.exchange_rate_sunat).toFixed(3)})
-                </span>
-              )}
-            </div>
+            <div><span className="font-medium text-slate-400">T. Cambio:</span> <span className="font-semibold text-slate-900">{tc.toFixed(3)}</span></div>
           </div>
         </div>
 

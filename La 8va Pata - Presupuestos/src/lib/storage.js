@@ -196,7 +196,6 @@ export async function createProject(project) {
     updated_at: new Date().toISOString(),
     status: project.status || 'draft',
     exchange_rate: parseFloat(project.exchange_rate) || 3.6,
-    exchange_rate_sunat: parseFloat(project.exchange_rate_sunat) || parseFloat(project.exchange_rate) || 3.6,
     financing_fee_rate: parseFloat(project.financing_fee_rate) || 0.016,
     admin_fee_rate: parseFloat(project.admin_fee_rate) || 0.04,
     markup_realization_rate: parseFloat(project.markup_realization_rate) || 0.15,

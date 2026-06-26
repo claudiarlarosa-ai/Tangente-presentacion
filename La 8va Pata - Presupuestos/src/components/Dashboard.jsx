@@ -23,8 +23,7 @@ export default function Dashboard({ onSelectProject }) {
     director: '',
     contact_8va_pata: '',
     budget_number: '',
-    exchange_rate: 3.6,
-    exchange_rate_sunat: 3.6
+    exchange_rate: 3.6
   });
 
   const loadProjects = async () => {
@@ -42,8 +41,7 @@ export default function Dashboard({ onSelectProject }) {
     const rate = await fetchExchangeRate();
     setNewProject(prev => ({ 
       ...prev, 
-      exchange_rate: rate,
-      exchange_rate_sunat: rate 
+      exchange_rate: rate
     }));
   };
 
@@ -67,8 +65,7 @@ export default function Dashboard({ onSelectProject }) {
       director: '',
       contact_8va_pata: '',
       budget_number: '',
-      exchange_rate: 3.6,
-      exchange_rate_sunat: 3.6
+      exchange_rate: 3.6
     });
     await loadProjects();
   };
@@ -115,7 +112,7 @@ export default function Dashboard({ onSelectProject }) {
 
   // CSV Export Function
   const handleExportCSV = () => {
-    const headers = ['Nombre Proyecto', 'Cliente', 'Agencia', 'Producto', 'N. Presupuesto', 'Estado', 'TC Comercial', 'TC SUNAT', 'Dias Rodaje', 'Fecha Creacion'];
+    const headers = ['Nombre Proyecto', 'Cliente', 'Agencia', 'Producto', 'N. Presupuesto', 'Estado', 'Tipo de Cambio', 'Dias Rodaje', 'Fecha Creacion'];
     const rows = filteredProjects.map(p => [
       p.name,
       p.client || '',
@@ -126,7 +123,6 @@ export default function Dashboard({ onSelectProject }) {
       p.status === 'liquidated' ? 'Liquidado' :
       p.status === 'rejected' ? 'Rechazado' : 'En Proceso',
       p.exchange_rate || 3.6,
-      p.exchange_rate_sunat || p.exchange_rate || 3.6,
       p.shoot_days || 1,
       new Date(p.created_at).toLocaleDateString()
     ]);
@@ -367,7 +363,7 @@ export default function Dashboard({ onSelectProject }) {
               </div>
 
               <div className="border-t border-brand-border/40 pt-4 mt-auto flex justify-between items-center text-xs text-brand-muted print:border-slate-200 print:text-slate-500 print:pt-2">
-                <span>TC Comercial: {proj.exchange_rate}</span>
+                <span>T. Cambio: {proj.exchange_rate}</span>
                 <span>Modificado: {new Date(proj.updated_at).toLocaleDateString()}</span>
               </div>
             </div>
@@ -480,38 +476,27 @@ export default function Dashboard({ onSelectProject }) {
                   />
                 </div>
 
-                <div className="bg-slate-900/60 p-3 rounded-lg border border-brand-border/60 md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-xs font-semibold uppercase text-brand-muted mb-1.5">T.C. Referencia (API SUNAT)</label>
-                    <div className="flex gap-2">
-                      <input
-                        type="number"
-                        disabled
-                        value={newProject.exchange_rate_sunat}
-                        className="w-full bg-brand-card border border-brand-border rounded-lg px-3.5 py-2 text-brand-muted font-bold text-sm cursor-not-allowed"
-                      />
-                      <button
-                        type="button"
-                        onClick={handleFetchRate}
-                        className="flex items-center justify-center p-2 border border-brand-border bg-brand-card hover:bg-brand-border rounded-lg text-brand-green transition-colors cursor-pointer"
-                        title="Actualizar tasa desde API SUNAT"
-                      >
-                        <RefreshCw className="w-4 h-4" />
-                      </button>
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="block text-xs font-semibold uppercase text-white mb-1.5">T.C. Comercial (Cálculo) *</label>
-                    <input
-                      type="number"
-                      step="0.001"
-                      required
-                      value={newProject.exchange_rate}
-                      onChange={e => setNewProject(p => ({ ...p, exchange_rate: parseFloat(e.target.value) || 3.6 }))}
-                      className="w-full bg-slate-900 border border-brand-green rounded-lg px-3.5 py-2 text-white font-bold focus:outline-none focus:ring-1 focus:ring-brand-green text-sm"
-                    />
-                  </div>
+                <div>
+                  <label className="block text-xs font-semibold uppercase text-white mb-1.5 flex justify-between items-center">
+                    Tipo de Cambio (USD-PEN) *
+                    <button
+                      type="button"
+                      onClick={handleFetchRate}
+                      className="text-brand-green hover:underline flex items-center gap-1 text-[10px] uppercase font-bold cursor-pointer"
+                      title="Actualizar tasa desde API de tipo de cambio"
+                    >
+                      <RefreshCw className="w-2.5 h-2.5" />
+                      API Mercado
+                    </button>
+                  </label>
+                  <input
+                    type="number"
+                    step="0.001"
+                    required
+                    value={newProject.exchange_rate}
+                    onChange={e => setNewProject(p => ({ ...p, exchange_rate: parseFloat(e.target.value) || 3.6 }))}
+                    className="w-full bg-slate-900 border border-brand-border rounded-lg px-3.5 py-2 text-white focus:outline-none focus:border-brand-green text-sm"
+                  />
                 </div>
               </div>
 
