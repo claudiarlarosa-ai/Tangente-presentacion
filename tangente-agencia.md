@@ -10,7 +10,7 @@ Transformamos procesos complejos en operaciones inteligentes. Ayudamos a empresa
 
 ## Quiénes somos
 
-Tangente es una empresa de transformación empresarial con experiencia en Perú, Costa Rica, México, Estados Unidos y otros países. Especializada en optimizar procesos, digitalizar operaciones y desarrollar soluciones tecnológicas adaptadas a las necesidades de cada organización.
+Tangente es una empresa de transformación empresarial con experiencia en Perú y Costa Rica. Especializada en optimizar procesos, digitalizar operaciones y desarrollar soluciones tecnológicas adaptadas a las necesidades de cada organización.
 
 Combinamos estrategia, tecnología e inteligencia artificial para ayudar a las empresas a operar mejor, tomar mejores decisiones y crecer de manera sostenible.
 
